@@ -1,0 +1,33 @@
+.hidden{
+    display: none;
+}
+
+.navs-container{
+    @media (max-width: 946px) {
+       padding: 0 !important;
+    }
+}
+
+.fix-mt{
+    margin-top: 2rem;
+}
+
+.center-img{
+    text-align: center;
+}
+
+.rounded-img{
+    border-radius: 3px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.mt-1{
+    margin-top: 1rem !important;
+}
+
+.mb-1{
+    margin-bottom: 1rem !important;
+}

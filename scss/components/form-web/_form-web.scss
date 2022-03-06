@@ -1,0 +1,45 @@
+.form-web{
+    display: flex;
+    flex-direction: column;
+    &__input{
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: 1px solid $gray;
+        border-radius: 5px;
+    }
+    textarea{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        resize: none;
+    }
+    &__button{
+        padding: 0.5rem;
+        background-color: $white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $primary-green;
+        border: 2px solid $primary-green;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all .25s;
+        &:hover{
+            background-color: $primary-green;
+            color: $white;
+        }
+    }
+}
+
+#successMessage{
+    color: $primary-green;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+.show{
+    visibility: visible !important;
+}

@@ -1,0 +1,14 @@
+.post{
+    &-date{
+        color: $primary-green;
+        font-size: 0.9rem;
+    }
+    &-text{
+        margin-top: 1rem;
+    }
+}
+
+.post-img{
+    width: 100%;
+    border-radius: 3px;
+}

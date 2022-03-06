@@ -1,0 +1,14 @@
+.contact{
+    &__item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        img{
+            margin-right: 0.5rem;
+        }
+        a{
+            color: $primary-blue;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.vendors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: .5rem .5rem 1rem .5rem;
+    overflow-x: auto;    
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 110px;
+        min-width: 250px;
+        box-shadow: 0 0 10px $light-gray;
+        overflow: hidden;
+        margin-right: 1rem;        
+    }
+}
